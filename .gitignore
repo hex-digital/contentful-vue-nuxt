@@ -3,6 +3,10 @@ node_modules
 
 # logs
 npm-debug.log
+contentful-import-error-log*
+
+# Configuration
+.contentful.json
 
 # Nuxt build
 .nuxt

@@ -1,7 +1,15 @@
+const contentfulConfig = require('./.contentful.json');
+
 module.exports = {
   /*
   ** Headers of the page
   */
+  env: {
+    CTF_SPACE_ID: contentfulConfig.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: contentfulConfig.CTF_CDA_ACCESS_TOKEN,
+    CTF_PERSON_ID: contentfulConfig.CTF_PERSON_ID,
+    CTF_BLOG_POST_TYPE_ID: contentfulConfig.CTF_BLOG_POST_TYPE_ID
+  },
   head: {
     title: 'contentful-vue-nuxt',
     meta: [
